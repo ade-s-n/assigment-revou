@@ -41,12 +41,33 @@ nav{
     align-items: center;
 }
 
+.main-banner-container{
+    height: 150px;
+    width: 100%;
+}
+
+
+
 .main-content-banner{
     
     width: 100%;
     height: 150px;
     background-image: url(https://picsum.photos/150);
 }
+
+
+.banner-1 {
+    background-image: url(https://picsum.photos/150);
+}
+
+.banner-2 {
+    background-image: url(https://picsum.photos/150);
+}
+
+.banner-3 {
+    background-image: url(https://picsum.photos/150);
+}
+
 
 .item-icon{
     height: 25px;
@@ -78,3 +99,10 @@ button{
     background-color: lightblue;
     border: 0;
 }
+
+@media only screen and (max-width: 500px){
+    .main-content{
+        flex-direction: column;
+    }
+}
+
